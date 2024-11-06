@@ -5,7 +5,7 @@ scrape_configs:
   - job_name: 'prometheus'
     scrape_interval: 1m
     static_configs:
-    - targets: [prometheus:9090']    # localhost
+    - targets: ['prometheus:9090']    # localhost
 
   - job_name: 'cadvisor'
     static_configs:
