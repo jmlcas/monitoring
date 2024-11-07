@@ -2,7 +2,7 @@
 
 Grafana - Prometheus
 
-CadAdvisor: "localhost:8080"
+cAdvisor: "localhost:8080"
 
 Grafana:    "localhost:3000"
 
